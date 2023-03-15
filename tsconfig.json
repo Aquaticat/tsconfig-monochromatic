@@ -1,0 +1,114 @@
+{
+  "include": ["src/**/*", "tests/**/*"],
+
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    //region Modules
+
+    "module": "esnext",
+
+    "resolveJsonModule": true,
+
+    "moduleResolution": "bundler",
+
+    //endregion
+
+    //region Emit
+
+    "declarationMap": true,
+
+    "newLine": "lf",
+
+    "verbatimModuleSyntax": true,
+
+    //endregion
+
+    //region JavaScript Support
+
+    "allowJs": true,
+
+    "checkJs": true,
+
+    //endregion
+
+    //region Editor Support
+
+    "disableSizeLimit": true,
+
+    //endregion
+
+    //region Interop Constraints
+
+    "isolatedModules": true,
+
+    //endregion
+
+    //region Language and Environment
+
+    "emitDecoratorMetadata": true,
+
+    "experimentalDecorators": true,
+
+    "target": "esnext",
+
+    //endregion
+
+    //region Compiler Diagnostics
+
+    "explainFiles": true,
+
+    "listEmittedFiles": true,
+
+    "listFiles": true,
+
+    "traceResolution": true,
+
+    //endregion
+
+    //region Projects
+
+    "composite": true,
+
+    //endregion
+
+    //region Output Formatting
+
+    "noErrorTruncation": true,
+
+    //endregion
+
+    //region Completeness
+
+    "skipLibCheck": true,
+
+    //endregion
+
+    //region Command Line
+
+
+
+    //endregion
+
+    //region Watch Options
+
+
+
+    //endregion
+
+    //region Type Acquisition
+
+
+
+    //endregion
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+}

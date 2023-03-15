@@ -1,0 +1,30 @@
+{
+  "name": "tsconfig-monochromatic",
+  "version": "0.0.1",
+  "description": "Monochromatic's tsconfig.json",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aquaticat/tsconfig-monochromatic.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monochromatic",
+    "config",
+    "tsconfig",
+    "esnext",
+    "javascript",
+    "typescript"
+  ],
+  "author": {
+    "name": "Aquaticat",
+    "email": "an@aquati.cat",
+    "url": "https://aquati.cat"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "5.0.0-beta"
+  }
+}
