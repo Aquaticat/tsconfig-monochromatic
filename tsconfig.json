@@ -1,6 +1,4 @@
 {
-  "include": ["src/**/*", "tests/**/*"],
-
   "compilerOptions": {
     "strict": true,
     "exactOptionalPropertyTypes": true,
@@ -19,6 +17,7 @@
     "resolveJsonModule": true,
 
     "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
 
     //endregion
 
